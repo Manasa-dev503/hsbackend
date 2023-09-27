@@ -1,9 +1,271 @@
 {
-    "posts": [
-      { "id": 1, "title": "na istam server", "author": "ganesh" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "hospitals": [
+    {
+      "hospitalName": "kims",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAACWCAMAAAC/8CD2AAAA4VBMVEX///8AfbDkG0cAe68AeK0AdKsAdqxtbnKozN/j8fYZgbLT5e5Ymb8AcqpeX2P//v9cXWLjAD3jADdiY2dnaGy10uLz9/rm5ufGx8i7u711dnriADTs7OzQ0NH19fWio6Xa2tuUlZeurrDjDUGHiIotjrv1wMi4t7n98/X86OviADD40Nd/f4L99fdop8jBwcLzq7jteIzyoK376Ovvh5n2vMb52d/sboTpVnLufZHwk6PmLVR8sc6aw9l+s8/nQmJPUFThACDnQGDqX3kAaqbxmqnpUG3F2+jW6PBboMRElb1BfQxuAAAQ8klEQVR4nO2dC1/aPhfHC70JGxTaIndaKIoK4mWKm4hzuony/l/Qk5O2SXqDgsD+PsvvM522NbRfzsk5OUmLIHBxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFFNbm81f72Ofzf6Pz4x/Ru8rfP4v9BYJPnt3flXy8c53akHd81m2ff/zGcO+vbJjdZvaz/HO6q/f+qhtcnu2j2+Ltezpazl7to+z+ub69X37bcpHY5bTpZp3n/j4b267Or0y02d36d1bNZR3/Z9vv0eTSZnt1szfGvkadn0dftthr8dEJ+qd39Kl9vpbFLsE7k7Vfn8Fv1H/V5pEu9OT3+cCvDZ8CZLU9xbLfbH27wcwqb0WRabt6dfCiNOrnSHeCpX8FvrV51O6f3+dSptdD3c5ToOB9Jcy4d6DyzThZbeq+3nZP7nKpfwPd73dG/bxqaT1+xt2f1F+g97Ya9tZP7lKr1O+j7rZ51nM2i86XjuDxxbOuOOts8u8+oqgkRZIIctvmyfjeq3TUxTseBaGQb1tbP7/OpowKFk58wYFx3/D3BqSeK7q+QzVql+g7O7/Op0xih2KS9oK5QvxeWhHstvOey7Ln7FdrTGhX/1WwpLK1v2Oi/H8h79e/n8cdcXt1GUN+47p5twtvQNor2bk/zM6n7NEDfr5uQ+8S6/UvTOfsR3IRNGvOElKtXMv/Z7DNOVqkrwKgJahsxKektsGsGUJ//dLvPrA7Zp2WonGdAVgnyp2MY8TR/RPZOcST/zmw5n7rdZ/YMePYNg/MMaVBSUWiaAKbyz1AFanLmsqObT3yeYJ/ayOQ8o+oZpu0mpCgXCk4H3erUubG+BXj2TWN1fD90tWx/isMPD1PnyokvlqscPI7f398fHg8q85x/UCSF+bh6ReByCkSdcqAAde9lm37vqvk8cTxCPFPkn7PfhYJcUN5z8bvHvwvK4o3+rhRAmYdAanGQKRTeU17Nwe+CPI5urozzBVmRJElEX4oiFzJH74+VhJP6qAZFAw3tT4BotslWSa9cfuU/3u8/ffuEDV3T7KZo/EDJZDJiRiq8xe0dy7D3N92XFzMgKc+Y2fw32iI/prqWtwJqL0z0cCbJktswkSiKCKv0Pkt2ns3VM4yB78/6Dd1+FwR658X3MlTrBobaSNM2BgoXcBSzE/NE+xZkS967XoVhMpZgi1xJ4Z6H+A0RpYCBVzJKJkGiVJinuYp1ZRlGjxC9Imdz47m8a7V/vPzTedZg+K6mC0gEaOFLZN/Yv1CZmIkPNCNRy/nqGpeSW127XUj+oVQPhZBxBiTvBKhH1PV6naRJly5QHdejhm7IR7+eomGrqYJRp5APNKMchHd59olUIAAIUIa/B1TMr/TOB69FiQH6Vc4s046Aoh6R2mj59dy1haE7xjyDKdKTrM/zEh+ezuGXAaU8RTFqoXIEaEZaHpg04aDgmzcF+pDo7t4btyOgELN7EOuxjz97I3vXQqfwo9+BOq8CDODVFBkTViLQMb1S5YFsXQZ0VWB6I4GHAp0XyKtkIAwpMsR6kXYC0i6CEtYIE53gjtKZurn8ve6bpJeSug4vNFS1n7LZJKDUPjMKjUnLgWYKlSWvdJgnx1GgRxSdrLzPKvP5/ODxYZEpyBiqKD8safFj6jRUIDr0iOKZERholp/hBy9hypYhCbhABmqnbDYBaALPFUBFaUnmuGDMzj9szrxMIEHKVR6OIB2NSVm3phYKNHXfFj2ip6/upJMX71GeCp0BMtBR2lbjgVJ/F6Uj9kKXA41Pvlw9Mp0lAfogkfaifSUaOsUmx1sTpEI1FNtxOHeyrtfDqgjhVGcNFPWg5kXaRmOBMvYpBRGtAJocmCpMZ0mBEo+X0o0Ltqya68r3rI1iXRGPhx60r6pG6jm5OKAsz0Xw8FVAM/Is5kU0FJCYYwjQQ9rcbm0xST1keyhdf3Hn25+97En45js8DvGdYvqQFAuUie9BfxdSAE1IHPOBYwjQjL+5sKNh+yr1TVXt+IN2Z6q5REkPigN+zVTN9IsaokBZ+4zk6quBZuIC01cp9hAKVIkz7D1Ia6jmyB8yoQwfNgma7/DZJvQClpk6CRVigL5T+xTD9pkKqJiPvMhjaDQUdfmM9Hd8Xqgip++S0nL5DraRHDQLo3hhpKYcxmOFgbI8Y8aSKYAGCidYlfDokhgxk0qJs7+zMhACU92dZgIfh2mRO99CHeDbUVXVbKVuLwSU5ZmJ8d00QDOFoP/mlPABBOiMyaWUzGO0PrMHgUfbKLC7/SbUR/0e1E2aICYZmwL9uoJnOqDBwHSYj+wnQHMB25VkcXzw5rrFHs0VuTQKTNqza5fN40mTAIU6XsvY3ELf6fWJ+di4mw5oIDC9S0t2h2ojaDivZBaPlZ0N4OME3ShKi079ch1JQt25EAC6YR/K+rsSn8esGHqSH+hwYEYyegqW4R01XzQ4kwtHD7uqMsUIhuoD0o1mCU+3dN8BoBtFeZZnUtBdClQaE2YkMNFykjKOKY4Ih0dRA8YnoChjeIm9uD7KRg2S3zNyIEShzGqjPFTM0ysT80lJzPLy3XxG+gxvxJQjjUqLQ2qrjPkfvrOD0qChLpZVr7aoFkrvGygbdcJAX2AvJP8bjJQyrO9FE1BPS4EqFabDdEv6tDynHMYDRVlVXk6YBBELi/2MoJDTm5YgHDfDRKHWVEdAi6mj0kFsxTw+xAurLLTC9Im4zE97EXR8ElCEdCFDahWDVZT3Y6R9N/DchWxUH6I+B/Km9D4fDzQpyK8GmiPWJi6EYA+QDFQQ3mZHihzXm4pyZK5rF6oWccnzJNSL4sweJpTwiD+VEoAmTbmtBEonjjISHcHjqt4yoAKUP8f5gqKIITsV91OIskx2wETjPJTvqpCJpl0EngQ0WmjCWg2UGbjTLAoP71cABeXmj18zheCihyVF6y0KBpi07kSB4juSemukoolA40ojqYD6k+/sm4ONLAVQrC+zhcSe1c4mPgOqu3GJzMZ7OsPLyUaQBqTL4EJARQZGnI2mAXoYDi5eN5gWKFJuxgwDxF1OLFE13CH7Szh3gkCPCyRpVjaFgcrjB2Z0LUWdLQ1Q4UuwGuLPQq8BVGBHrDH1wF3IS51OQ72ou/y2lZpoAKj8Tld34AtfhA9PBZSJ7hmmD1wPKDui3c/QXnVNNJw6uTXSlmqmI8oCdVfFMSPQKNF0QIUx47AkpV0TKJ1i3hPQBBPN6ni81Omj3Snun2OA+osKmJpTcFJeSA2UHSGRkLIm0Ld9A9W8SnLYRL3bvYSBiYx0ZZWEAsU8cSRbYqNpgeb8dJKZBd3YQjMpjt6GegjYQBAm4QGofw9OFRmp0V1hpASoxCx6YYkqgZn2tEARDryVnafftA8VIz35jgSVTxX9/xo2UZQ93WBTazcM0xwszZ/iV46wXg+RilTRUgMV5jDskdkAHQs0N87nH+KmPuhKk/3NiMKI3mYn6Ri39x4x0u4bhlpfYqUJa5uSbDQ9UJQ9VSqBVfJxQL8UJDz18X7whe0oDytHzOK/vc3Zwww8Ckta1EIhNv10b3CoWmbJ7CVWn5JW37FEmWWK6wANKw6oN+0pikpBzC/ex+PZbPY4XohMQU/aT14PgroS+PyPWKJO8/kSe6rW7hpPo3o808T1oez8kpRqwe0GQA/Z5aEIK9wBElwfussVolF5Pj+kPh9Eqzs33p1N9qBvNnp21PdZoMHOlrFROpreMtC3hGo9o/2M5D0N3FU35H7E7PR7WQ8wLes//3gP1epUa71ut95udVhwBGiUBlMdpkAJvNgpkKVnSxferAF0TwVmT7Y7AcosdTj/dntVbpYZqE65+XwzJAy1VrXK2ikFGr2Jg3h9gXgdWdAZOwWywjkXvitToL+X3QGCWhT3aZ+0iEcXhOOb6iZ/vjsBqGVdf70/jn0cjA80sn4G5Nkosy9H+EeBrrz3a14IAz2cLRQ5UlMmOJWHvU7QC+46phYzR+9O0yGdD69fpmW9TLA66Jfpy5/j05AZHsgiSF7EnvpCgX1s0WkONXUk9rYayd2y+u7EmeweKrOznvPHI1FWInfSSXLmcf9rHP2VdjQMsXtPh9c3L1P9rNnUsZpnZ79+nU2/391fHvt3MFeOQIukiZuvoX2akHvEf8FMNI/xhvc0nd3bAz72KEQq92X2sJAKBVlG9oqGA0hHj/t1dk8QlWD1N6mKNmMeX6udTobDY0/D4XAy+Xae7jbf3a0yiG0592VeqcwO5vMvf2n5rZvawy3HN2RN+L/7DMatCO5PwI8l8ac/y/d/+5Q+t3ygJMw7V3/7lD63ACi4PBkruTPzXJsK+tCawIFuTRfucmYOdFtCeagJA8njjfvQdr/m/VTvs/WozkW33+3ZgWNhW9+6oEso6l0sq02zoK6/ZMXuUtVoG1ZwSYvVjSRQttVHr+w2aXW7/WoV/nxPTz/te3d1bh7layX/QQVWiVls0jOKRQN9jZhtVRVvKxVHPnkLDgE1yHth+gssaiW03TDhgBJ9FkKrGFzS0jDDBbC+9yIqYGyhd1mzSy2hl/L2/w9K89fZ0Vu/1n1uc60YA1QbGWbPbrWg3k+m+TTDsKqdVvWir/qbLKPdQrL7BrlesmKlA3tqxR78T6FZoUfLRIB2jZHd6VTbVsmGX9t9KAGN0L81r2szwe202DbItNLZug/EjQXaNfreddZNstS0VvS9lTCw/AcV9skTIINLgNqhJ212zNEocItKGKhm+OsG3f8w0FGv2N6PhfZMXL0TzkkXOl23iTigdpFSGRj+auh6qSaERIAiS/Q2LQc6KNZqJbY7DANthUyxBkBVodZShX1I9R40QPL69R9+Hwe0yz5xtOGbKMIcXtFHgNrEepcC1VQTvpgjIi5vBu9Mb6EX6Hhfu1fN8Dok4vHO2p/PUCv6l2wVPV6ayprDoOhfYdcw+rXAzBQBOiCtLAV6AYbcKzLbIkDbhtEYxEzV7EUj0+1wSBa6wUi+ZnTbNVC77wPtFNl7HihxoQ5hvsHMoPpAWyqx7qVA8UqXTpHpD6NR3h6hxEDt/o2n8l74D6/1V93C/d7rqmaaJTf1IY9y7AT6sRprUHavXzRIJ4Gi/IVt27WeSZ+avQxou4QPs0qUVhQoSs/qXbNY7O/dSjuq54zXZAJkg8/yQhZaH4DqxEKFBvtACCv0COcOCvz+Fss0SkhF5h6JZUD7pgWvZJn0DYsDiv9wZKRb37pF9T1LmRCem9RCmT6UuK1lUEAtI3L/Q7vYJQcCoYs2c8QSoFXDBE9A/Okze5KAouiU+r6LLWnw5NrnN+8TAJzmRrXluCjfKZJ0XusbkUFflQJ1s29WS4B2jXrVBl1Q60sG2ljjDuBtqOa9yxM/Hq39sHuvnbjEHoXaAb5Qu0H701bXu8KuQf/EDreXDBTZuv/jiIwWGmbo7/1oVNvT2MhXzeuzj/1HWN9t+IFWsUBRqEKBtmeNUKJE+Fglo9+7uLAaRsO3KpI2EWnJQC0a3S5I2tpQLU9um3ap2LAGtUF/z0+Lb3u5ofvIeqf5vPFnIV48+S5tPTF5e8uCzq40YgZH2kXDzQfoklPryQ41pxXVANAnkhF0nphQVyx5JooSsRLWkz986OLXKO33w2A099Ru4RMqHN25+8BHS3bIOpJWaByE+rtwL9ay22026W5VIz1gNdAKbR39yLRG/rBKRNe2oBdp77f/dHX7fKbrzvTqNuFDGLjW0vDq9cf95fDf/SBELi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi6u/7r+B6SZjpMRQijOAAAAAElFTkSuQmCC",
+      "area": "lki",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "ICU",
+          "price": "78900"
+        },
+        {
+          "bedType": "Luxury",
+          "price": "789000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "occupied",
+          "bedtype": "Luxury",
+          "bedprice": "35647",
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTcyMjQ5MSwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1NzIyNDkxLCJleHAiOjE2OTU3MjYwOTEsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Vdl5aCqoZj42C4bcnTOmtP9XRySl29XCUApwjtuSfiMrt2S29ztfJYp56HFZF-zSCjkwGw49uCRiEO2-qT9Q_x-xqbYAa1EX-xvbbMJ9PGIks5o8lyqDwTSvl0T8xdTFh5O043OWair-pmCZMI3TvUOPXRolPedErFgFfW0DyDTxesh9edOnNh4mECtyjBonC8zUpMMudenYWSkjmbOnzAYQSaStC6yrZRk2qdFjewig92vVHKoDL73kBxm9hDVyl-JgBTNjC9-b8lQ1HIEp5d8Im2w1trOkbvhiKc-bzr3uFPw4ESbviM7CiSFZl51AdmoGp5yYorlrgmkk_I4Zuw"
+            }
+          ],
+          "bedId": "Luxury1"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "Luxury",
+          "bedprice": "35647",
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTc4NTE1MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1Nzg1MTUwLCJleHAiOjE2OTU3ODg3NTAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.YuYFY4ZWSf_AQisuOwMNf5UWfJ93PW-DR5R2GJbqrUpPvvLnUuMIFnMAfUU1O3u10Aropn9voS5mtOTin6UdfXvYAzFQflnczDTgQ9ETxHViRUPYje1TDI55v6q9hx2776mtsnus78j3sBB6Pfux5wwkF7mEKl9Wf-4sfvcYvv62JukGePROEEUaZsueEuB4_E5ahMSPAkVi12RVZRb1w-ndSoNxBWaZU-14_YOuD8P8d84WST7zcYTsXgBgkA98eRnP8B27JQLm8v6h4SZgfzsf2hOAjH2vebLOcWozSghQ-RzgrqEyob9TtguaM7ogE0GzkGFNlw89JmRGZa1wmQ"
+            }
+          ],
+          "bedId": "Luxury2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "Luxury",
+          "bedprice": "35647",
+          "patients": [],
+          "bedId": "Luxury3"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "hospitalName": "Apollo",
+      "image": "data:image/png;base64,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",
+      "area": "5678f",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "First Class",
+          "price": "57699"
+        },
+        {
+          "bedType": "general",
+          "price": "5754"
+        },
+        {
+          "bedType": "suit",
+          "price": "678965"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "First Class1"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "First Class",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "First Class2"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "First Class",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "First Class3"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "First Class",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "First Class4"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "First Class5"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "general",
+          "bedprice": "1000",
+          "patients": [],
+          "bedId": "general1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "32421",
+          "patients": [],
+          "bedId": "general2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "32421",
+          "patients": [],
+          "bedId": "general3"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "hospitalName": "medicover",
+      "image": "data:image/jpeg;base64,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",
+      "area": "hitechcity",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "First Class",
+          "price": "32000"
+        },
+        {
+          "bedType": "ICU",
+          "price": "32200"
+        },
+        {
+          "bedType": "suit",
+          "price": "322000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit4"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTcyMjc3MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1NzIyNzcwLCJleHAiOjE2OTU3MjYzNzAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.HPB_OqYqgwYiHRtYYThCPqoMLjmTk0aES8_pfLaDflPgo7gNU9iHmJZEj7DxbkhcPAp1X9z1Uopsg4lJRw-gSBd51_TuDGOCYCk05XhugIV4a7hueg8jG1Fs4XPHOtHpUkAm3O9zH8tonOERNwU_gQZTW_nBUfoZ7v3GU5UZLPEktvEnTdao4pAhEeNCSfeFriP-8ZVlFpIFTRuwLsNkecG1qK5NS33dNnAUiAlY2Q6bISObfArf8jlpE1lLP0ZznKx0Nbl_ZMjJld_0P9CZVyJXmhE5b2g-yuzpctXI0mAKspef2fdTjz9EPG2mAjJSC60xeCVfjTb2pF0-wSgfIg"
+            }
+          ],
+          "bedId": "suit5"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit6"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit7"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit8"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit9"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "suit10"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "hospitalName": "citizens",
+      "image": "data:image/jpeg;base64,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",
+      "area": "Lingampally",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "First Class",
+          "price": "20000"
+        },
+        {
+          "bedType": "general",
+          "price": "3000"
+        },
+        {
+          "bedType": "suit",
+          "price": "60000"
+        }
+      ],
+      "beds": [],
+      "id": 5
+    }
+  ],
+  "patients": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "manasa"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
