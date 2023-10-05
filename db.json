@@ -226,10 +226,15 @@
           "bedId": "suit6"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "80000",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ5MDkwNCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDkwOTA0LCJleHAiOjE2OTY0OTQ1MDQsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Ib-BJApUrLQ9ai3T0MuiV2_gtWlCukN4DeNM4w-Bjiyd6YutT9SeO7Z0rKqyoTdYN0yl96fk_BuoLDPauZoIuH61C23nzYYqfgJYIwetQK4IOMYEFBbBX3pLPKcca977p8x8kxs09kiajg9fp-zEYqsEkQlRcPKh7VtvMjxw6AaJmGofU42fpnWDiSESMrPVvNRsufoG9vR4Q70nU_rNssrqlKY_JNwyRCSizg9MJ1DrEnK3dsakuLlPo19mLEtfWrwH41VbNr80bEh8m78v3ligevfXXLaBVjrfeRLropA1OOQBmuH6pLACYj7VUcageBleJCcPMBYnKXnVeN-rFA"
+            }
+          ],
           "bedId": "suit7"
         },
         {
@@ -330,6 +335,39 @@
         }
       ],
       "id": 5
+    },
+    {
+      "hospitalName": "Global ",
+      "image": "https://media-exp1.licdn.com/dms/image/C510BAQHsJlQENR48KQ/company-logo_200_200/0/1519905171815?e=2159024400&v=beta&t=kic8UJVGadHb48U5C4E2D2QQviKM6y8SWKEf7HVAByg",
+      "area": "Lb Nagar",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "First Class",
+          "price": "12341"
+        },
+        {
+          "bedType": "Luxury",
+          "price": "20000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "20000",
+          "patients": [],
+          "bedId": "First Class1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "20000",
+          "patients": [],
+          "bedId": "First Class2"
+        }
+      ],
+      "id": 6
     }
   ],
   "patients": [],
