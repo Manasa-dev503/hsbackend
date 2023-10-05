@@ -71,10 +71,15 @@
       ],
       "beds": [
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "First Class",
           "bedprice": "10000",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjIyMzg2OCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2MjIzODY4LCJleHAiOjE2OTYyMjc0NjgsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.iKhPsnhX0ws2qHXKOWaTOZy66ccTo0Cw-HNTPcM7DMRgwUlqXSeWhJSWxDc6Mk2kgEmulY_CYN-4bmKATmSf8Hm-sASiYVaOQN-hliWLx2wdb-Icot7_i7owsCFm6rlsqkZwX_SMh7RPX2FTejdZOCkbhbIDPGUZIZ5PGz851vL_aqAGB-JvJ8qsKUHKiifj6hJj9l4-v3LWUA0VyOPTBwonT9CGXTrl-9gG-yc-Pw66qw-gixTCM-iDIUhETDZyU94W1Ax56hYkmlaWCoj7c25RCzz5DYOvoPEyX3vPGlBpT49SLO8DqkDQ92V3g-0J-qi5IBdtO0x-yWO_RCXlkA"
+            }
+          ],
           "bedId": "First Class1"
         },
         {
@@ -113,10 +118,15 @@
           "bedId": "general1"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "general",
           "bedprice": "32421",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4MDk1MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDgwOTUwLCJleHAiOjE2OTY0ODQ1NTAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lq8GxLS4aGMAlILJpk500touI-Stzyl2rLJgoUA33m6f1M3C7EyhEQ8luqA4hrEDdirV_dTTfT9H3bom0yFWsfGawbI1xvFQ9il59CQKkU39AUjIUUKfehGXOMwBieUl_eeBNxswsoEbFNTpcxWiZP6EKWXW0dfMgXh1WvPYddvRr5Y9gaRqUwE93a2gIrZu6-zyRl8R4Ou7KcaC1odSsphuza31WtD2dQkyNVKRrrKdHSIwL5-WEPoRsCAsVK7BdKkUx7ZBmNKlKde7LTxXVHdB1LzJalO3dEPkkVyHy7JQDroLlPBlSW5mtie5Ha1Tx9NuYHvl3DcMZV0Iw6jCTg"
+            }
+          ],
           "bedId": "general2"
         },
         {
@@ -125,6 +135,20 @@
           "bedprice": "32421",
           "patients": [],
           "bedId": "general3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "suit1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "12345",
+          "patients": [],
+          "bedId": "suit2"
         }
       ],
       "id": 2
@@ -150,10 +174,15 @@
       ],
       "beds": [
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "80000",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4NjIyMiwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDg2MjIyLCJleHAiOjE2OTY0ODk4MjIsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.jA4CSPIFQNd8WGlRKnFxCtifYlL90ejYBmKLXHDKApEx2xkVq__Xr_Ttup9XAPs7k5gXebFTyzDgA84JICLnTEtQnaWWR3nFmHTJxF_nCAFkv98m-0AGlWyc_q4A-osRtctH3tJuketZJM4-ZVrLfDxhQkJVKNNkg-t9-G2VCREYz8fWoa3dP_aCGQyrMmhdX4iokxMhuYl7VP7L1v2acXICsKPmJnGnAjK85SwguVBTkTJNFm92cq3CDzaJaPw1va1Slvu22_eMxn-6okg017NKkBFPcj7BuMX6loXac_88Y6SfnDqswOakeT6BRXcoGmlEVihXsP_Yx6OTorsxrg"
+            }
+          ],
           "bedId": "suit1"
         },
         {
@@ -218,10 +247,15 @@
           "bedId": "suit9"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "80000",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4NjMxMSwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDg2MzExLCJleHAiOjE2OTY0ODk5MTEsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Xx1XwyAZKv8eXgRCK3kfCLSh976VrcbScuQWTN79dYyiJb4stZhKvkK6e-QwVhxvK0j1Mnv4llQ1Fw6_8UmEzLyXT1h_pPifLRB9dTJJoctZoN7lubdILqrenb2IiaOntJvqBQLq0ZBDRjtZAsJLfOgUa7AwIwYVztrjbziuut2MbJAbbBEwy6Sw6NSre2DUpER7Kfq6rEEYTOPEZxMq5U017XLBy7yryzvfEJtfFcc4DyeBBXzXbI0Hp5BqJM5OyTnssUFMVJAB9uNSKkFQIs59j-MM-XewwEHLQRT11mvliEXtkymPFqgjjgCvFrolbk0C-FfJv2GiOuIKo_SZwg"
+            }
+          ],
           "bedId": "suit10"
         }
       ],
@@ -246,7 +280,55 @@
           "price": "60000"
         }
       ],
-      "beds": [],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [],
+          "bedId": "First Class1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [],
+          "bedId": "First Class2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [],
+          "bedId": "First Class3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [],
+          "bedId": "First Class4"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQwMDUzNCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDAwNTM0LCJleHAiOjE2OTY0MDQxMzQsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.EOua9sFd_hl0QPI2p6l38I0GpUiM4ofQP5_NeXh4G_dJsvsHcv4ILzGEbKGpJzQA61XhTSRvzrKhozqWzBQ6sgVIBIXU3tCmWdpI5Av9ugg9d3qPLg0mrIyQjmjQkr-Op0Z2CyxjKq9LZFUDPScwSG55Zf0aBNsgO8eA4Zr2MM1lQIgyvuOOmYMbRNH0jL89KuNpJqne8ricW8uj4WZBzXEJFuHW-bDnZk-g6IY-BTDaIVK4HGNExIEb91EvTHIaBpXsanueOy7kdF7gFiBqvDwnGIccTiR-YYsLfRwv4nSV0npvFwb2vXtx8ZzFXmnDciOy-S3r_RXFbESHMbbfMw"
+            }
+          ],
+          "bedId": "First Class5"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "First Class",
+          "bedprice": "24422",
+          "patients": [],
+          "bedId": "First Class6"
+        }
+      ],
       "id": 5
     }
   ],
