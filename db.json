@@ -17,13 +17,14 @@
       ],
       "beds": [
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "Luxury",
           "bedprice": "35647",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTcyMjQ5MSwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1NzIyNDkxLCJleHAiOjE2OTU3MjYwOTEsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Vdl5aCqoZj42C4bcnTOmtP9XRySl29XCUApwjtuSfiMrt2S29ztfJYp56HFZF-zSCjkwGw49uCRiEO2-qT9Q_x-xqbYAa1EX-xvbbMJ9PGIks5o8lyqDwTSvl0T8xdTFh5O043OWair-pmCZMI3TvUOPXRolPedErFgFfW0DyDTxesh9edOnNh4mECtyjBonC8zUpMMudenYWSkjmbOnzAYQSaStC6yrZRk2qdFjewig92vVHKoDL73kBxm9hDVyl-JgBTNjC9-b8lQ1HIEp5d8Im2w1trOkbvhiKc-bzr3uFPw4ESbviM7CiSFZl51AdmoGp5yYorlrgmkk_I4Zuw"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "discharged",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "Luxury1"
@@ -34,8 +35,9 @@
           "bedprice": "35647",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTc4NTE1MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1Nzg1MTUwLCJleHAiOjE2OTU3ODg3NTAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.YuYFY4ZWSf_AQisuOwMNf5UWfJ93PW-DR5R2GJbqrUpPvvLnUuMIFnMAfUU1O3u10Aropn9voS5mtOTin6UdfXvYAzFQflnczDTgQ9ETxHViRUPYje1TDI55v6q9hx2776mtsnus78j3sBB6Pfux5wwkF7mEKl9Wf-4sfvcYvv62JukGePROEEUaZsueEuB4_E5ahMSPAkVi12RVZRb1w-ndSoNxBWaZU-14_YOuD8P8d84WST7zcYTsXgBgkA98eRnP8B27JQLm8v6h4SZgfzsf2hOAjH2vebLOcWozSghQ-RzgrqEyob9TtguaM7ogE0GzkGFNlw89JmRGZa1wmQ"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "Luxury2"
@@ -71,36 +73,55 @@
       ],
       "beds": [
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "First Class",
           "bedprice": "10000",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjIyMzg2OCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2MjIzODY4LCJleHAiOjE2OTYyMjc0NjgsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.iKhPsnhX0ws2qHXKOWaTOZy66ccTo0Cw-HNTPcM7DMRgwUlqXSeWhJSWxDc6Mk2kgEmulY_CYN-4bmKATmSf8Hm-sASiYVaOQN-hliWLx2wdb-Icot7_i7owsCFm6rlsqkZwX_SMh7RPX2FTejdZOCkbhbIDPGUZIZ5PGz851vL_aqAGB-JvJ8qsKUHKiifj6hJj9l4-v3LWUA0VyOPTBwonT9CGXTrl-9gG-yc-Pw66qw-gixTCM-iDIUhETDZyU94W1Ax56hYkmlaWCoj7c25RCzz5DYOvoPEyX3vPGlBpT49SLO8DqkDQ92V3g-0J-qi5IBdtO0x-yWO_RCXlkA"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "discharged",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "First Class1"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "First Class",
           "bedprice": "12345",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "discharged",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "First Class2"
         },
         {
           "bedStatus": "occupied",
           "bedtype": "First Class",
           "bedprice": "12345",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "First Class3"
         },
         {
           "bedStatus": "occupied",
           "bedtype": "First Class",
           "bedprice": "12345",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "First Class4"
         },
         {
@@ -111,10 +132,16 @@
           "bedId": "First Class5"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "general",
           "bedprice": "1000",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "discharged",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "general1"
         },
         {
@@ -123,8 +150,9 @@
           "bedprice": "32421",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4MDk1MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDgwOTUwLCJleHAiOjE2OTY0ODQ1NTAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Lq8GxLS4aGMAlILJpk500touI-Stzyl2rLJgoUA33m6f1M3C7EyhEQ8luqA4hrEDdirV_dTTfT9H3bom0yFWsfGawbI1xvFQ9il59CQKkU39AUjIUUKfehGXOMwBieUl_eeBNxswsoEbFNTpcxWiZP6EKWXW0dfMgXh1WvPYddvRr5Y9gaRqUwE93a2gIrZu6-zyRl8R4Ou7KcaC1odSsphuza31WtD2dQkyNVKRrrKdHSIwL5-WEPoRsCAsVK7BdKkUx7ZBmNKlKde7LTxXVHdB1LzJalO3dEPkkVyHy7JQDroLlPBlSW5mtie5Ha1Tx9NuYHvl3DcMZV0Iw6jCTg"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "general2"
@@ -137,18 +165,37 @@
           "bedId": "general3"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "12345",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "suit1"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "12345",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "suit2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "",
+          "bedprice": "12000",
+          "patients": [],
+          "bedId": "1"
         }
       ],
       "id": 2
@@ -179,8 +226,9 @@
           "bedprice": "80000",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4NjIyMiwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDg2MjIyLCJleHAiOjE2OTY0ODk4MjIsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.jA4CSPIFQNd8WGlRKnFxCtifYlL90ejYBmKLXHDKApEx2xkVq__Xr_Ttup9XAPs7k5gXebFTyzDgA84JICLnTEtQnaWWR3nFmHTJxF_nCAFkv98m-0AGlWyc_q4A-osRtctH3tJuketZJM4-ZVrLfDxhQkJVKNNkg-t9-G2VCREYz8fWoa3dP_aCGQyrMmhdX4iokxMhuYl7VP7L1v2acXICsKPmJnGnAjK85SwguVBTkTJNFm92cq3CDzaJaPw1va1Slvu22_eMxn-6okg017NKkBFPcj7BuMX6loXac_88Y6SfnDqswOakeT6BRXcoGmlEVihXsP_Yx6OTorsxrg"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "suit1"
@@ -193,10 +241,16 @@
           "bedId": "suit2"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "80000",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "suit3"
         },
         {
@@ -212,17 +266,24 @@
           "bedprice": "80000",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFkNWM1ZTlmNTdjOWI2NDYzYzg1ODQ1YTA4OTlhOWQ0MTI5MmM4YzMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NTcyMjc3MCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk1NzIyNzcwLCJleHAiOjE2OTU3MjYzNzAsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.HPB_OqYqgwYiHRtYYThCPqoMLjmTk0aES8_pfLaDflPgo7gNU9iHmJZEj7DxbkhcPAp1X9z1Uopsg4lJRw-gSBd51_TuDGOCYCk05XhugIV4a7hueg8jG1Fs4XPHOtHpUkAm3O9zH8tonOERNwU_gQZTW_nBUfoZ7v3GU5UZLPEktvEnTdao4pAhEeNCSfeFriP-8ZVlFpIFTRuwLsNkecG1qK5NS33dNnAUiAlY2Q6bISObfArf8jlpE1lLP0ZznKx0Nbl_ZMjJld_0P9CZVyJXmhE5b2g-yuzpctXI0mAKspef2fdTjz9EPG2mAjJSC60xeCVfjTb2pF0-wSgfIg"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "suit5"
         },
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "suit",
           "bedprice": "80000",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "suit6"
         },
         {
@@ -231,8 +292,9 @@
           "bedprice": "80000",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ5MDkwNCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDkwOTA0LCJleHAiOjE2OTY0OTQ1MDQsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Ib-BJApUrLQ9ai3T0MuiV2_gtWlCukN4DeNM4w-Bjiyd6YutT9SeO7Z0rKqyoTdYN0yl96fk_BuoLDPauZoIuH61C23nzYYqfgJYIwetQK4IOMYEFBbBX3pLPKcca977p8x8kxs09kiajg9fp-zEYqsEkQlRcPKh7VtvMjxw6AaJmGofU42fpnWDiSESMrPVvNRsufoG9vR4Q70nU_rNssrqlKY_JNwyRCSizg9MJ1DrEnK3dsakuLlPo19mLEtfWrwH41VbNr80bEh8m78v3ligevfXXLaBVjrfeRLropA1OOQBmuH6pLACYj7VUcageBleJCcPMBYnKXnVeN-rFA"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "suit7"
@@ -257,8 +319,9 @@
           "bedprice": "80000",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQ4NjMxMSwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDg2MzExLCJleHAiOjE2OTY0ODk5MTEsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.Xx1XwyAZKv8eXgRCK3kfCLSh976VrcbScuQWTN79dYyiJb4stZhKvkK6e-QwVhxvK0j1Mnv4llQ1Fw6_8UmEzLyXT1h_pPifLRB9dTJJoctZoN7lubdILqrenb2IiaOntJvqBQLq0ZBDRjtZAsJLfOgUa7AwIwYVztrjbziuut2MbJAbbBEwy6Sw6NSre2DUpER7Kfq6rEEYTOPEZxMq5U017XLBy7yryzvfEJtfFcc4DyeBBXzXbI0Hp5BqJM5OyTnssUFMVJAB9uNSKkFQIs59j-MM-XewwEHLQRT11mvliEXtkymPFqgjjgCvFrolbk0C-FfJv2GiOuIKo_SZwg"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "suit10"
@@ -287,10 +350,16 @@
       ],
       "beds": [
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "First Class",
           "bedprice": "24422",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "First Class1"
         },
         {
@@ -320,8 +389,9 @@
           "bedprice": "24422",
           "patients": [
             {
-              "useremail": "bathinamanasa503@gmail.com",
-              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjlhNTE5MDc0NmU5M2JhZTI0OWIyYWE3YzJhYTRlMzA2M2UzNDFlYzciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoibWFuYXNhIGJhdGhpbmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUtwVVJOYnQ4dzZTVUhoeUI2ZV9RaGxaRE41LTZZZHNMWWNpeGN5TGFrVHc9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtYzRkY2EiLCJhdWQiOiJob3NwaXRhbGFwcC1jNGRjYSIsImF1dGhfdGltZSI6MTY5NjQwMDUzNCwidXNlcl9pZCI6IlN0VlA5V05Xb3BiNFo1enplMjNRVEZiakdsMDMiLCJzdWIiOiJTdFZQOVdOV29wYjRaNXp6ZTIzUVRGYmpHbDAzIiwiaWF0IjoxNjk2NDAwNTM0LCJleHAiOjE2OTY0MDQxMzQsImVtYWlsIjoiYmF0aGluYW1hbmFzYTUwM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTI3MDkyMDUxNTczNzQyNzY0NiJdLCJlbWFpbCI6WyJiYXRoaW5hbWFuYXNhNTAzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.EOua9sFd_hl0QPI2p6l38I0GpUiM4ofQP5_NeXh4G_dJsvsHcv4ILzGEbKGpJzQA61XhTSRvzrKhozqWzBQ6sgVIBIXU3tCmWdpI5Av9ugg9d3qPLg0mrIyQjmjQkr-Op0Z2CyxjKq9LZFUDPScwSG55Zf0aBNsgO8eA4Zr2MM1lQIgyvuOOmYMbRNH0jL89KuNpJqne8ricW8uj4WZBzXEJFuHW-bDnZk-g6IY-BTDaIVK4HGNExIEb91EvTHIaBpXsanueOy7kdF7gFiBqvDwnGIccTiR-YYsLfRwv4nSV0npvFwb2vXtx8ZzFXmnDciOy-S3r_RXFbESHMbbfMw"
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
             }
           ],
           "bedId": "First Class5"
@@ -353,10 +423,16 @@
       ],
       "beds": [
         {
-          "bedStatus": "open",
+          "bedStatus": "occupied",
           "bedtype": "First Class",
           "bedprice": "20000",
-          "patients": [],
+          "patients": [
+            {
+              "email": "bathinamanasa503@gmail.com",
+              "status": "ongoing",
+              "name": "manasa bathina"
+            }
+          ],
           "bedId": "First Class1"
         },
         {
