@@ -145,13 +145,13 @@
           "bedId": "general1"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "general",
           "bedprice": "32421",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
@@ -165,13 +165,13 @@
           "bedId": "general3"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "suit",
           "bedprice": "12345",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
@@ -241,13 +241,13 @@
           "bedId": "suit2"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "suit",
           "bedprice": "80000",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
@@ -274,13 +274,13 @@
           "bedId": "suit5"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "suit",
           "bedprice": "80000",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
