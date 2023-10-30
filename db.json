@@ -1,4 +1,8 @@
 {
+  "admins": [
+    "vigneshvarikolu133@gmail.com",
+    "198a1a0503manasa@gmail.com"
+  ],
   "hospitals": [
     {
       "hospitalName": "kims",
@@ -30,13 +34,13 @@
           "bedId": "Luxury1"
         },
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "Luxury",
           "bedprice": "35647",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
@@ -46,7 +50,13 @@
           "bedStatus": "open",
           "bedtype": "Luxury",
           "bedprice": "35647",
-          "patients": [],
+          "patients": [
+            {
+              "useremail": "bathinamanasa503@gmail.com",
+              "name": "manasa bathina",
+              "status": "discharged"
+            }
+          ],
           "bedId": "Luxury3"
         }
       ],
@@ -423,13 +433,13 @@
       ],
       "beds": [
         {
-          "bedStatus": "occupied",
+          "bedStatus": "open",
           "bedtype": "First Class",
           "bedprice": "20000",
           "patients": [
             {
               "email": "bathinamanasa503@gmail.com",
-              "status": "ongoing",
+              "status": "discharged",
               "name": "manasa bathina"
             }
           ],
